@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #450920;
+}
+
+body * {
+  font-family: "Philosopher", sans-serif;
+  color: aliceblue;
+}
+
+#cabecalho {
+  height: 50%;
+  size: cover;
+  margin: auto;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+#logo img {
+  width: 360px;
+}
+
+#menu {
+  margin: auto;
+  width: 360px;
+}
+/*retirar sublinhado*/
+#menu * {
+  text-decoration: none;
+  font-family: "Philosopher", sans-serif;
+  font-size: 22px;
+}
+/*em linha, retirar bolinhas sumario e espaçar os itens*/
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+/*cor e fonte*/
+ul li a {
+  color: #f9dbbd;
+  font-family: "Montserrat", sans-serif;
+  font-size: 105%;
+}
+
+.containerrs {
+  margin-top: 20px;
+  background-color: rgba(249, 219, 189, 0.9);
+  height: 360px;
+  display: flex;
+  flex-direction: row;
+}
+.containerrx {
+  margin-top: 20px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.sobremim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2 {
+  margin-left: 230px;
+  color: #450920;
+  font-size: 30px;
+}
+#sobremimtext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-left: 25%;
+  padding-right: 5%;
+  padding-top: 20px;
+  color: #450920;
+}
+#profile {
+  margin-right: 18%;
+  margin-top: 3%;
+}
+#profi {
+  border-radius: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#titlerx {
+  color: #f9dbbd;
+  padding-top: 25px;
+}
+.portimg {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#conttext {
+  font-size: 20px;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 18%;
+  padding-top: 20px;
+  display: block;
+}
+#conttext * {
+  text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  color: #450920;
+}
+.containerct {
+  margin-top: 20px;
+  background-color: rgba(249, 219, 189, 0.9);
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 950px) {
+  .containerrs {
+    margin-top: 20px;
+    background-color: rgba(249, 219, 189, 0.9);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    text-align: center;
+    color: #450920;
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  #sobremimtext {
+    text-align: center;
+    margin-left: 0px;
+  }
+  #profile {
+    margin-right: 0%;
+    margin-top: 10%;
+  }
+  .portimg {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .portimg * {
+    margin-top: 25px;
+  }
+  .containerrx {
+    height: 1200px;
+  }
+}
