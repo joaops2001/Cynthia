@@ -57,8 +57,9 @@ ul li a:hover {
 
 .containerrs {
   margin-top: 20px;
+  padding: 50px;
   background-color: rgba(249, 219, 189, 0.9);
-  height: 360px;
+  height: auto;
   display: flex;
   flex-direction: row;
 }
@@ -90,6 +91,7 @@ h2:hover {
   padding-top: 20px;
   color: #450920;
   transition: 1s;
+  text-indent: 25px;
 }
 
 #sobremimtext:hover {
@@ -133,24 +135,6 @@ h2:hover {
 .portimg img:hover {
   filter: drop-shadow(0px 0px 0.75rem black);
 }
-#conttext {
-  font-size: 20px;
-  font-weight: 400;
-  word-wrap: break-word;
-  margin-left: 18%;
-  padding-top: 20px;
-  display: block;
-}
-#conttext * {
-  text-decoration: none;
-  font-family: "montserrat", sans-serif;
-  font-size: 20px;
-  color: #450920;
-  transition: 1s;
-}
-#conttext *:hover {
-  text-shadow: 0px 0px 4px white;
-}
 
 .containerct {
   margin-top: 20px;
@@ -159,6 +143,29 @@ h2:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+#conttext {
+  margin-left: 17%;
+  margin-top: 20px;
+}
+#conttext * {
+  color: #450920;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  vertical-align: middle;
+  transition: 0.5s;
+}
+#conttext *:hover {
+  text-shadow: 0px 0px 2px white;
+}
+.icon {
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.icon:hover {
+  background-color: rgb(255, 255, 255, 0.5);
 }
 
 @media (max-width: 950px) {
