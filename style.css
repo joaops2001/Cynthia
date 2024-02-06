@@ -13,7 +13,7 @@ body * {
   color: aliceblue;
 }
 
-#cabecalho {
+main {
   height: 50%;
   size: cover;
   margin: auto;
@@ -28,12 +28,12 @@ body * {
   width: 360px;
 }
 
-#menu {
+nav {
   margin: auto;
   width: 360px;
 }
 /*retirar sublinhado*/
-#menu * {
+nav * {
   text-decoration: none;
   font-family: "Philosopher", sans-serif;
   font-size: 22px;
